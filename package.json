@@ -1,0 +1,17 @@
+{
+  "name": "ep_01",
+  "version": "1.0.0",
+  "description": "I am gonna learn here",
+  "main": "App.js",
+  "scripts": {
+    "test": "jest"
+  },
+  "keywords": [
+    "React"
+  ],
+  "author": "Anshul",
+  "license": "ISC",
+  "devDependencies": {
+    "parcel": "^2.11.0"
+  }
+}
