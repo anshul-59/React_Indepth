@@ -2,9 +2,10 @@
   "name": "ep_01",
   "version": "1.0.0",
   "description": "I am gonna learn here",
-  "main": "App.js",
   "scripts": {
-    "test": "jest"
+    "start": "parcel index.html",
+    "test": "jest",
+    "build": "parcel build index.html"
   },
   "keywords": [
     "React"
@@ -12,6 +13,11 @@
   "author": "Anshul",
   "license": "ISC",
   "devDependencies": {
-    "parcel": "^2.11.0"
+    "parcel": "^2.11.0",
+    "process": "^0.11.10"
+  },
+  "dependencies": {
+    "react": "^18.2.0",
+    "react-dom": "^18.2.0"
   }
 }
